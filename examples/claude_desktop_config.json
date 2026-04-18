@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "boardherald": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@boardherald/mcp-bridge",
+        "--api-key", "bh_REPLACE_WITH_YOUR_KEY",
+        "--url", "https://your-tenant.boardherald.com"
+      ]
+    }
+  }
+}

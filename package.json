@@ -1,0 +1,43 @@
+{
+  "name": "@boardherald/mcp-bridge",
+  "version": "0.1.0",
+  "description": "stdio ↔ HTTPS bridge for connecting any MCP client (Claude Desktop, ChatGPT, custom) to a BoardHerald tenant.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "boardherald",
+    "claude",
+    "claude-desktop",
+    "chatgpt",
+    "agent",
+    "bridge"
+  ],
+  "homepage": "https://www.boardherald.com/agents",
+  "bugs": {
+    "url": "https://github.com/getbananalabs/boardherald-mcp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getbananalabs/boardherald-mcp.git"
+  },
+  "license": "MIT",
+  "author": "BananaLabs",
+  "type": "module",
+  "bin": {
+    "mcp-bridge": "./scripts/mcp-bridge.mjs",
+    "boardherald-mcp-bridge": "./scripts/mcp-bridge.mjs"
+  },
+  "files": [
+    "scripts/",
+    "examples/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

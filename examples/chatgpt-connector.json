@@ -1,0 +1,7 @@
+{
+  "type": "mcp",
+  "url": "https://your-tenant.boardherald.com/api/mcp",
+  "headers": {
+    "Authorization": "Bearer bh_REPLACE_WITH_YOUR_KEY"
+  }
+}
